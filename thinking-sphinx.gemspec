@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   }
   s.require_paths = ['lib']
 
-  s.add_runtime_dependency 'activerecord', '>= 4.2.0'
+  s.add_runtime_dependency 'activerecord', '= 6.1.2.1'
   s.add_runtime_dependency 'builder',      '>= 2.1.2'
   s.add_runtime_dependency 'joiner',       '>= 0.3.4'
   s.add_runtime_dependency 'middleware',   '>= 0.1.0'
